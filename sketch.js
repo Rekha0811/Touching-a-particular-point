@@ -5,7 +5,7 @@ function draw(){
   background('black')
   if(mousePressedOver(box)){
     console.log("Dont click on the Box")
-    fill("white");
+     fill("white");
     textSize(20);
     text("Dont click on the Box",100,100);
   }
@@ -13,9 +13,9 @@ function draw(){
     for(var i=0;i<touches.length;i++){
       if(touches[i][0] == box.x &&touches[i][1] == box.y){
         console.log("true")
-        text("Dont touch the Box",100,100);
-        fill("white");
+         fill("white");
     textSize(20);
+    text("Dont touch the Box",100,100);
       }
       else
         {
